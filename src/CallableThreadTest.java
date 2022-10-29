@@ -38,6 +38,7 @@ public class CallableThreadTest implements Callable<Integer> {
             System.out.println(Thread.currentThread().getName() + " " + i);
         }
         System.out.println("ces");
+        System.out.println();
         return i;
     }
 
